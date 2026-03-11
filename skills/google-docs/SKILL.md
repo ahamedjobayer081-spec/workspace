@@ -1,5 +1,5 @@
 ---
-name: docs
+name: google-docs
 description: >
   CRITICAL: You MUST activate this skill BEFORE creating, editing, or managing
   Google Docs. Always trigger this skill as the first step when the user
@@ -106,7 +106,7 @@ This PR introduces a new agent skill for Gmail with rich HTML formatting
 guidance, establishing the skills architecture for the extension.
 
 Key Changes:
-- Added skills/gmail/SKILL.md with email formatting instructions
+- Added skills/google-gmail/SKILL.md with email formatting instructions
 - Updated WORKSPACE-Context.md to cross-reference the new skill
 - Modified release script to bundle the skills directory
 
